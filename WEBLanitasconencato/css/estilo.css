@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#contenedor{
+	width: 1200px;
+	height: 1000px;
+	margin: 0.5em auto;
+	padding: 0.5em;
+}
+
+#header{
+	height: 15%;
+	border-radius: 1em;
+	margin: 1em;
+
+
+}
+#nav{
+	height: 10%;
+	background: #FDF9FD;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+#contenido{
+	height: 53%;
+	margin: 1em;
+}
+
+
+#footer{
+	width: 1200px;
+	height: 100px;
+	background: #E3E3E3;
+	border-radius: 1em;
+	
+}
+
+
+#aside{
+	height: 450px;
+	width: 600px;
+	background: #ccc;
+	border-radius: 1em;
+	float: right;
+	margin: 0.5em;
+}
+
+
+#logo{
+	width: 200%;
+	height: 100px;
+	float: left;
+	
+
+}
+	
+.menu{
+    width: 1166px;
+	height: 80px;
+	float: right;
+	margin-top: 40px;
+	margin: auto;
+	padding-top: 10px;
+	
+
+}
+
+.menu ul li {
+	list-style: none;
+	float: left;
+	
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 20px 30px;
+	border: 0px solid #ccc;
+
+
+
+}
+
+.menu ul a:hover{
+	color: #050405;
+	background: #D3D1D3;
+
+
+}
+
+.menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.menu li a{
+	background-color: #B4ADB4;
+	color: #050505;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	border-radius: 1em;
+
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+#centro3 #izquierda{
+    width: 550px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: left;
+}
+
+#centro3 #izquierda h3{
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 40px;
+    font-family: "Avenir Next",sans-serif;
+    
+    
+    
+    
+}
+#centro3 #izquierda .descripcion{
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 18px;
+    font-family: "Avenir Next",sans-serif;
+    margin-top: 20px;
+    
+}
+
+#aside {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: right
+}
+
+#izquierda1 {
+    margin-top: 20px;
+    
+}
+
+#izquierda1 .descripcion2 {
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 18px;
+    font-family: "Avenir Next",sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      
+}
+
+#centroabajo {
+    width: 1250px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+   
+    
+    
+}
+
+#centroabajo h3 {
+    margin-right: 100px;
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 40px;
+    font-family: "Avenir Next",sans-serif;
+    
+}
+
+
+
+ .descripcion3 {
+    text-align: left;
+    color: #6e6e6e;
+    font-size: 18px;
+    font-family: "Avenir Next",sans-serif;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+
+.formulario {
+width: 400px;
+background: #24303c;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+color: white;
+box-shadow: 7px 13px 37px #000;
+}
+.formulario h4 {
+font-size: 22px;
+margin-bottom: 20px;
+}
+.controles {
+width: 100%;
+background: #24303c;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #1f53c5;
+font-size: 18px;
+color: white;	
+}
+.formulario p {
+height: 40px;
+text-align: center;
+font-size: 18px;
+line-height: 40px;
+}
+.formulario a {
+	color: white;
+	text-decoration: none;
+}
+.formulario a:hover {
+color: white;
+text-decoration: underline;
+}
+.formulario .botones {
+width: 100%;
+background: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
+.mapa {
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	color: rgb(10, 10, 10);	
+}
+.ti {
+	width: 400px;
+	padding: 10px;
+	margin: auto;
+	border-radius: 4px;
+	color: rgb(10, 10, 10);
+}
+.ti {
+	text-align: center;
+}
+footer {
+	max-width: 1000px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: #FDF9FD;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-size: 19px;
+}
+
+
+
+
+
+
+
